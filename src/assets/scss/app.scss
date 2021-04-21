@@ -1,0 +1,66 @@
+@import '_dashboard';
+
+* {
+    font-family: 'Roboto', sans-serif;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+button a {
+    width: 140px;
+    borderRadius: 3px;
+    letterSpacing: 1.5px;
+}
+
+div.navbar-fixed{
+    height: 10vh;
+
+    .brand-logo {
+        margin-left: 30px;
+        text-decoration: none;
+
+        &:hover {
+            opacity: 0.8;
+            transform: scale(1.1);
+        }
+    }
+}
+
+div.landing {
+    height: 80vh;
+
+    .row {
+        width: 100%;
+        margin: 0 auto;
+    }
+}
+
+div.dashboard {
+    height: 80vh;
+}
+
+div.modal-backdrop {
+    opacity: 0.6;
+}
+
+div.modal-content {
+    background: transparent;
+    box-shadow: none;
+    border-radius: none;
+    border: none;
+}
+
+.modal {
+    max-height: 90%;
+
+    .modal-content {
+        padding: 0 24px;
+    }
+
+    .close {
+        position: absolute;
+        top: 0;
+        right: 20px;
+    }
+}
