@@ -1,5 +1,4 @@
-# Duck feed App
-* **Demo url:** <a herf="https://floating-lake-43579.herokuapp.com/">https://floating-lake-43579.herokuapp.com/</a>
+
 
 ## Requirement
 A scientist is trying to understand how ducks are being fed in parks around the world. She wants to collect the following information:
